@@ -72,7 +72,7 @@ class App extends React.Component {
         return (
             <div>
                 <h1>Don`t click the same image twice!</h1>
-                 <h2>Tyoe in any word to change the images displayed:</h2>
+                 <h2>Type in any word to change the images displayed:</h2>
                 <div>
                     <input type="text" value={this.state.searchterm} onChange={this.searchGiphy} />
                 </div>
